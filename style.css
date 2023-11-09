@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 30%;
+}
+.card-phone {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+  }
+  input , button{
+    height: 30px;
+    border-radius: 5px;
+  }
+  h1 , h3{
+    color: white;
+  }
+  
+@media only screen and (max-width: 600px) {
+    
+    body {
+        font-size: 14px;
+    }
+    
+}
+
+  
+  .card-phone .div {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border-color: var(--lightpopboder);
+    background: linear-gradient(180deg, rgb(46.77, 90.17, 244.04) 0%, rgb(14.97, 161.7, 171.06) 100%);
+    overflow-x: hidden;
+    width: 400px;
+    height: 730.8px;
+    position: relative;
+    align-items: center;
+  }
+  
+  .card-phone .overlap {
+    position: absolute;
+    width: 375px;
+    height: 399px;
+    top: -20px;
+    left: -18px;
+  }
+  
+  .card-phone .text-wrapper {
+    position: absolute;
+    top: 55px;
+    left: 54px;
+    font-family: "PingFang SC-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16.2px;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .card-phone .text-wrapper-2 {
+    position: absolute;
+    top: 59px;
+    left: 279px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--light-70);
+    font-size: 16.2px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .card-phone .element-sunny-color {
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    top: 0;
+    left: 0;
+  }
+  
+  .card-phone .img {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    top: 134px;
+    left: 116px;
+  }
+  
+  .card-phone .sunny {
+    position: absolute;
+    top: 305px;
+    left: 152px;
+    font-family: "PingFang SC-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 21.6px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .card-phone .text-wrapper-3 {
+    position: absolute;
+    top: 347px;
+    left: 148px;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 43.2px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  
+  .card-phone .overlap-group {
+    position: absolute;
+    width: 317px;
+    height: 144px;
+    top: 520px;
+    left: 11px;
+  }
+  
+  .card-phone .rectangle {
+    position: absolute;
+    width: 59px;
+    height: 139px;
+    top: 5px;
+    left: 129px;
+  }
+  
+  .card-phone .card {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 25.2px;
+    padding: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14.4px;
+    backdrop-filter: blur(72px) brightness(100%);
+    -webkit-backdrop-filter: blur(72px) brightness(100%);
+  }
+  
+  .card-phone .row {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21.6px;
+    padding: 0px 1.8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .card-phone .element {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.9px;
+    font-family: "PingFang SC-Medium", Helvetica;
+    font-weight: 400;
+    color: #ffffffad;
+    font-size: 14.4px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .card-phone .span {
+    font-weight: 500;
+  }
+  
+  .card-phone .text-wrapper-4 {
+    font-family: "PingFang SC-Regular", Helvetica;
+    font-size: 10.8px;
+  }
+  
+  .card-phone .img-2 {
+    position: relative;
+    width: 32.4px;
+    height: 32.4px;
+  }
+  
+  .card-phone .text-wrapper-5 {
+    position: relative;
+    width: 31.5px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffffad;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .card-phone .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffffad;
+    font-size: 18px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .card-phone .temperature {
+    position: absolute;
+    width: 284px;
+    height: 92px;
+    top: 419px;
+    left: 27px;
+  }
+  
+  .card-phone .overlap-group-2 {
+    position: relative;
+    width: 285px;
+    height: 106px;
+    top: -10px;
+    left: -1px;
+  }
+  
+  .card-phone .vector {
+    position: absolute;
+    width: 285px;
+    height: 58px;
+    top: 0;
+    left: 0;
+  }
+  
+  .card-phone .vector-2 {
+    position: absolute;
+    width: 1px;
+    height: 70px;
+    top: 36px;
+    left: 143px;
+  }
+  
+  .card-phone .ellipse {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 29px;
+    left: 138px;
+    background-color: #1c86c8;
+    border-radius: 6.3px;
+    border: 3.6px solid;
+    border-color: #ffa439;
+  }
+  

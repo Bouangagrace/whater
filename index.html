@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>météo de get-weather</title>
+    <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="card-phone">
+      <div class="div">
+        <div class="overlap">
+            <div class="container">
+                <div class="weather-info">
+                  <h1> météo</h1>
+                  <input type="text" id="city" placeholder="Enter le nom de la ville ou pays">
+                  <button type="button" id="get-weather">obtenir la météo</button>
+                  <div id="weather-results">
+                    <h3>météo de <span id="city-name"></span></h3>
+                    <p id="temperature"></p>
+                    <p id="weather-conditions"></p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="overlap-group">
+          <div class="card">
+            <div class="row">
+              <p class="element"><span class="span">9</span> <span class="text-wrapper-4">AM</span></p>
+              <img class="img-2" src="img/cloudy-2-line.png" />
+              <div class="text-wrapper-5">18°</div>
+            </div>
+            <div class="row">
+              <p class="element"><span class="span">10</span> <span class="text-wrapper-4">AM</span></p>
+              <img class="img-2" src="img/moon-line.png" />
+              <div class="text-wrapper-6">19°</div>
+            </div>
+            <div class="row">
+              <p class="element"><span class="span">11</span> <span class="text-wrapper-4">AM</span></p>
+              <img class="img-2" src="img/sun-fill.png" />
+              <div class="text-wrapper-5">24°</div>
+            </div>
+            <div class="row">
+              <p class="element"><span class="span">12</span> <span class="text-wrapper-4">AM</span></p>
+              <img class="img-2" src="img/windy-fill.png" />
+              <div class="text-wrapper-6">25°</div>
+            </div>
+            <div class="row">
+              <p class="element"><span class="span">1</span> <span class="text-wrapper-4">PM</span></p>
+              <img class="img-2" src="img/haze-fill.png" />
+              <div class="text-wrapper-6">26°</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
